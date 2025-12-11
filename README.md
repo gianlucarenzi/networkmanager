@@ -29,7 +29,7 @@ graph TD
     I -- Link Attivo --> J{Applica la configurazione di rete};
     J -- Statico --> K[Applica IP/Netmask/Gateway/DNS];
     J -- DHCP --> L[Esegue dhclient];
-    K --> M{Verifica Connettività Internet (ping)};
+    K --> M{Verifica Connettività Internet ping};
     L --> M;
     M -- Connesso --> I;
     M -- Non Connesso --> N{Tentativo di riconfigurazione};
