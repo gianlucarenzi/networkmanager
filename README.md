@@ -15,7 +15,7 @@
 
 ## Diagramma di Flusso
 
-```mermaid
+```
 graph TD
     A[Start] --> B{Lettura Argomenti da riga di comando};
     B --> C{Inizializzazione D-Bus};
